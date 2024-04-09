@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./image/7966504.png" type="image/x-icon">
+</head>
+<body>
+ 
+   
+
+    <section class="section-start cantainer">
+        <div class="section_start-img">
+            <img src="./image/0opy_5vaq_220310.jpg" alt="">
+        </div>
+
+        <div class="section_start-title " >
+            <h1>Welcome to my friend Todo-list</h1>
+            <button class="section_start-btn" id="btnStart">Start</button>
+        </div>
+    </section> 
+    
+<!-- SECTION TODO -->
+ 
+    <section class="todoMain cantainer hidden">
+
+        <header class="todo_header">
+            <div class="todo_profile">
+                <img src="./image/9725293.png" alt="">
+                <h6>Morsal-Ashrafi</h6>
+            </div>
+            <div class="todo_title">
+                <h2>My todo list</h2>
+             </div>
+            <div>
+                <ul class="todo_setting" >
+                    <li class="close"><i class="fa-solid fa-xmark fa-flip fa-2xl" style="color: #930202;"></i> </li>
+                </ul>
+            </div>
+        </header>
+
+    
+
+        <div class="todo_container">
+            <li class="select">
+                <select class="filter-todos">
+                    <option value="all" class="all">All</option>
+                    <option value="completed">Completed </option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </li>
+
+            
+
+            <ul class="todoList">
+                <!-- <li class="todo">
+                    <h3 class="todo_title-h3">111</h3>
+        
+                    <div class="todoImages">
+                        <h5 class="todo_createdAt">1402</h5>
+                        <button class="todo-img" ><img src="./image/8819101.png" alt=""></button>
+                        <button class="todo-img"  ><img id="trash"  src="./image/6861362.png" alt=""></button>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+
+
+        <div class="form-container">
+            <form class="todo-form">
+                <input type="text" class="todo_input" placeholder="Add New Todo">
+                <button class="todo_btn">Add</button>
+            </form>
+        </div> 
+    </section> 
+
+
+
+
+    
+    <script src="./Js.js"></script>
+
+</body>
+</html>
